@@ -8,7 +8,8 @@ pipeline {
         }
         stage('Test') {
             steps {
-                sh 'mvn -Dtest=OpenapiGeneratortTest verify'
+                sh 'mvn spring-javaformat:apply'
+                sh 'mvn -Dtest=OpenapiGeneratortTests verify'
             }
             post {
                 always {

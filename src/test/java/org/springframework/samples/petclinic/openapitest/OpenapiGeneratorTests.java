@@ -107,8 +107,8 @@ class OpenapiGeneratorTests {
 	)
 	static class RestControllerLoader {
 
-	// This configuration will only scan for beans
-										// annotated with @RestController
+		// This configuration will only scan for beans
+		// annotated with @RestController
 
 	}
 
